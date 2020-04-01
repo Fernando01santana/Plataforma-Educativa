@@ -1,7 +1,8 @@
-<h1>Labore</h1>
-<p>Projeto voltado para a recuperação e disponibilização de documentos historicos da cidade de campos sales</p>
+
+<h1>LABORE</h1>
+<p>Project aimed at the recovery and availability of historical documents from the city of campos sales</p>
 <ul>
-<h4>Tecnologias utilizadas:</h4>
+<h4>Technologies used:</h4>
 <li>HTML</li>
 <li>CSS</li>
 <li>JS</li>
@@ -10,3 +11,5 @@
 <ul>
 <li>Bootstrap</li>
 </ul>
+
+<footer>developed by: <a href="https://github.com/Fernando01santana">Fernando Santana</a></footer>
