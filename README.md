@@ -1,5 +1,5 @@
 
-<h1>Labore</h1>
+<h1>LABORE</h1>
 <p>Project aimed at the recovery and availability of historical documents from the city of campos sales</p>
 <ul>
 <h4>Technologies used:</h4>
