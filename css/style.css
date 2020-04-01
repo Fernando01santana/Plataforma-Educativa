@@ -115,7 +115,7 @@ color:white;
 
 .fundo-tudo{
     height:100% !important;
-    background: url("../img/fundo_luz3.png")  !important;
+    background: url("../img/fundo-novo.png")  !important;
    background-repeat: no-repeat;
    background-attachment: fixed !important;
    background-size: cover;
@@ -133,4 +133,11 @@ figcaption{
 }
 .figura:hover figcaption{
     opacity: 1;
+}
+.fundo-documentos{
+    height:100% !important;
+    background: url("../img/fundo_luz3.png")  !important;
+   background-repeat: no-repeat;
+   background-attachment: fixed !important;
+   background-size: cover;
 }
