@@ -1,3 +1,9 @@
+<style>
+h1{
+  background: #ffde59;
+  color:black;
+  padding:1em;
+</style>
 <h1>Labore</h1>
 <p>Projeto voltado para a recuperação e disponibilização de documentos historicos da cidade de campos sales</p>
 <ul>
