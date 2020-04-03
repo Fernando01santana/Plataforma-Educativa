@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-   
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="Hover-master/css/demo-page.css"> 
+     <link rel="stylesheet" type="text/css" href="Hover-master/css/demo-page.css">
    <link rel="stylesheet" type="text/css" href="Hover-master/css/hover.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -16,37 +16,37 @@
   </head>
   <body>
    <!-- menu superior -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="background: #7e57c2 !important;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">LABORE</a>
-      
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin: auto!important; text-align: center;">
-            <li class="nav-item active">
-              <a class="nav-link hvr-underline-from-left " href="#">Inicio<span class="sr-only">(current)</span></a>
-             
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link hvr-underline-from-left" href="index.html">Recomendado<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link hvr-underline-from-left" href="#galeria">Galeria<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link hvr-underline-from-left" href="#documentos">Categoria<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link hvr-underline-from-left" href="#sobre">Sobre<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link hvr-underline-from-left" href="#ajuda">Ajuda<span class="sr-only">(current)</span></a>
-              </li>
-          </ul>
-        </div>
-      </nav>
 
+   <header class="navbar navbar-expand-lg navbar-dark bg-info shadow fixed-top" style="background: #7e57c2 !important;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">LABORE</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin: auto!important; text-align: center;">
+        <li class="nav-item active">
+          <a class="nav-link hvr-underline-from-left " href="#">Inicio<span class="sr-only">(current)</span></a>
+
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link hvr-underline-from-left" href="index.html">Recomendado<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link hvr-underline-from-left" href="#galeria">Galeria<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link hvr-underline-from-left" href="#documentos">Categoria<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link hvr-underline-from-left" href="#sobre">Sobre<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link hvr-underline-from-left" href="#ajuda">Ajuda<span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </header>
       <!-- carrousel de imagens -->
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -83,80 +83,74 @@
           </div>
         </div>
       </div>
-
+<?php include('card-slider/card-slider.html')?>
   <div class="fundo-tudo" >
 <div class="container cartoes">
         <div class="row">
           <div class="col-sm-4 md-4 lg-4" align="center"; >
             <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
+              <h4>Titulo do documento</h4>
                 <div class="card-body ">
-                  <h5 class="card-title">Titulo do documento</h5>
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
-          <div class="col-sm-4 md-4 lg-4" align="center"; style="padding=1em" >
-            <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Titulo do documento</h5>
+          <div class="col-sm-4 md-4 lg-4" align="center"; >
+            <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
+              <h4>Titulo do documento</h4>
+                <div class="card-body ">
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
-          <div class="col-sm-4 md-4 lg-4" align="center";>
-            <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Titulo do documento</h5>
+          <div class="col-sm-4 md-4 lg-4" align="center"; >
+            <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
+              <h4>Titulo do documento</h4>
+                <div class="card-body ">
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
         </div>
       </div>
-    
 
-   
+
+
       <div class="container cartoes">
         <div class="row">
-          <div class="col-sm-4 md-4 lg-4" align="center";>
-            <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Titulo do documento</h5>
+          <div class="col-sm-4 md-4 lg-4" align="center"; >
+            <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
+              <h4>Titulo do documento</h4>
+                <div class="card-body ">
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
-          <div class="col-sm-4 md-4 lg-4" align="center";>
-            <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Titulo do documento</h5>
+          <div class="col-sm-4 md-4 lg-4" align="center"; >
+            <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
+              <h4>Titulo do documento</h4>
+                <div class="card-body ">
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
-          <div class="col-sm-4 md-4 lg-4" align="center";>
-            <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
-                <img class="card-img-top" src="img/img03.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Titulo do documento</h5>
+          <div class="col-sm-4 md-4 lg-4" align="center"; >
+            <div class="card hvr-shutter-in-horizontal " style="width: 18rem;">
+              <h4>Titulo do documento</h4>
+                <div class="card-body ">
                   <p class="card-text">Breve resumo sobre o documento</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
+                  <a href="#" class="btn btn-primary">Documento</a>
                 </div>
               </div>
           </div>
         </div>
       </div>
-    
+
 
 <div class="container-fluid">
   <div class="row">
@@ -186,7 +180,7 @@
             </div>
           </div>
         </div>
-    
+
         <div class="container cartoes" align="center";>
           <div class="row">
             <div class="col-sm-4 md-4 lg-4">
@@ -218,7 +212,7 @@
             </div>
           </div>
         </div>
-    
+
 
 
         <div class="container cartoes">
@@ -228,7 +222,7 @@
                   <h4>História oral</h4>
                   <div class="card-body">
                   <p>Uma breve descrição da história oral da nossa cidade catalogado da melhor forma para sua pesquisa</p>
-                   
+
                     <a href="documentos.html#historia-oral" class="btn btn-primary">Arquivos</a>
                   </div>
                 </div>
@@ -262,7 +256,7 @@
                   <h4>Processos criminais</h4>
                   <div class="card-body">
                   <p>Uma breve descrição dos processos  da cidade catalogado da melhor forma para sua pesquisa</p>
-                   
+
                     <a href="#" class="btn btn-primary">Arquivos</a>
                   </div>
                 </div>
@@ -276,15 +270,24 @@
                   </div>
                 </div>
             </div>
+            <div class="col-sm-4 md-4 lg-4" align="center";>
+              <div class="card hvr-shutter-in-horizontal" style="width: 18rem;">
+                  <h4>Todos os tópicos</h4>
+                  <div class="card-body">
+                  <p>Uma breve descrição de todos os documentos  do nosso acervo catalogado da melhor forma para sua pesquisa</p>
+                    <a href="documentos.html" class="btn btn-primary">Arquivos</a>
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
-     
- 
+
+
 
       <div class="container-fluid">
         <div class="row">
           <div class="col sm-12 md-12 lg-12" align="center";>
-           <a href="documentos.html"><button type="button" class="btn btn-success btn-lg btn-block">ver todos</button></a> 
+           <a href="documentos.html"><button type="button" class="btn btn-success btn-lg btn-block">ver todos</button></a>
           </div>
         </div>
       </div>
@@ -296,11 +299,11 @@
           </div>
         </div>
       </div>
-     
+
       <div class="container">
         <div class="row galeria shadow-lg p-3 mb-5 bg-white rounded">
           <div class="col" align="center";>
-          
+
             <img src="img/midias/f23.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
           </div>
           <div class="col" align="center";>
@@ -311,72 +314,72 @@
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f10.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-           
+
           </div>
         </div>
 
         <div class="row galeria shadow-lg p-3 mb-5 bg-white rounded">
           <div class="col" align="center";>
             <img src="img/midias/f22.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f15.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f7.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f8.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
         </div>
 
         <div class="row galeria shadow-lg p-3 mb-5 bg-white rounded">
           <div class="col" align="center";>
             <img src="img/midias/f2.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f10.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f11.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f12.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
         </div>
 
         <div class="row galeria shadow-lg p-3 mb-5 bg-white rounded">
           <div class="col" align="center";>
             <img src="img/midias/f17.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f18.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f19.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
           <div class="col" align="center";>
             <img src="img/midias/f20.jpeg" class="img-fluid hvr-grow-shadow" alt="...">
-       
+
           </div>
         </div>
       </div>
       <footer>
-        <h6 class="footer">Desenvolvido por: Fernando Santana © 2020 - Coperbyte Marina Carvalho</h6>
+        <h6 class="footer">Desenvolvedor: <a clas="dev" href="https://github.com/Fernando01santana">Fernando Santana</a> © copyright: Marina Carvalho</h6>
       </footer>
     </div>
-  
+
 
 
     <!-- Optional JavaScript -->

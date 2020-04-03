@@ -1,5 +1,6 @@
 body{
-    padding:0 !important;
+    height: 100%;
+    padding-top:3em !important;
  /*   background: url("../img/fundo-criativo06.png.png")  !important;*/
 
 }
@@ -44,7 +45,7 @@ a.nav-link:hover{
 }
 
 .p-3 {
-     padding: 0 !important; 
+     padding: 0 !important;
 }
 /* css do novo carrousel*/
 
@@ -62,27 +63,27 @@ a.nav-link:hover{
 
 .id-documentos{
     /* width:100% !important;*/
-  
+
       text-align: center;
       background: #7e57c2;
       color:white;
-  }  
+  }
 
-  
+
 
   .cartoes{
       color:black;
       width:100%;
-    
+
   }
   .footer{
     /* width:100% !important;*/
-  
+
       text-align: center;
       background: #7e57c2;
       color:white;
       margin-bottom: 0;
-  } 
+  }
 
 h4{
 padding:1em;
@@ -96,7 +97,7 @@ color:white;
 
 .hvr-shutter-in-horizontal:hover{
    background:#7e57c2;
-   
+
 }
 
 .col-sm-4{
@@ -115,29 +116,28 @@ color:white;
 
 .fundo-tudo{
     height:100% !important;
-    background: url("../img/fundo-novo.png")  !important;
-   background-repeat: no-repeat;
-   background-attachment: fixed !important;
+    background: #F9EAC3  !important;
+
    background-size: cover;
 }
 .hvr-grow-shadow{
     padding:0.2em;
 }
-figcaption{
-    opacity: 0;
-    color: white;
-    background-color: rgba(0,0,0,0);
-    position: absolute;
-    transition: opacity 1s;
-    top:1em;
-}
+
 .figura:hover figcaption{
     opacity: 1;
 }
 .fundo-documentos{
     height:100% !important;
     background: url("../img/fundo_luz3.png")  !important;
-   background-repeat: no-repeat;
-   background-attachment: fixed !important;
-   background-size: cover;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dev{
+  text-decoration: none;
+  color:white !important;
+}
+.dev:hover{
+  color:yellow;
 }
